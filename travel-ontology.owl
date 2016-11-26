@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://localhost:8080/travel-ontology#"
+     xml:base="http://localhost:8080/travel-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://localhost:8080/travel-ontology#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#hasAttraction -->
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/travel-ontology#hasAttraction">
+        <rdfs:range rdf:resource="http://localhost:8080/travel-ontology#Attraction"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Package"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#hasFlight -->
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/travel-ontology#hasFlight">
+        <rdfs:range rdf:resource="http://localhost:8080/travel-ontology#Flight"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Package"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#hasFlightLeg -->
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/travel-ontology#hasFlightLeg">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#InBound"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Outbound"/>
+        <rdfs:range rdf:resource="http://localhost:8080/travel-ontology#flightLeg"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#hasHotel -->
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/travel-ontology#hasHotel">
+        <rdfs:range rdf:resource="http://localhost:8080/travel-ontology#Hotel"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Package"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#hasInbound -->
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/travel-ontology#hasInbound">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Flight"/>
+        <rdfs:range rdf:resource="http://localhost:8080/travel-ontology#InBound"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#hasOutbound -->
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/travel-ontology#hasOutbound">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Flight"/>
+        <rdfs:range rdf:resource="http://localhost:8080/travel-ontology#Outbound"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#hasPackage -->
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/travel-ontology#hasPackage"/>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#hasVaccination -->
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/travel-ontology#hasVaccination">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Package"/>
+        <rdfs:range rdf:resource="http://localhost:8080/travel-ontology#Vaccination"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#adult -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#adult">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#TravelRequest"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#arrival_time -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#arrival_time">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#flightLeg"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#attractions -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#attractions">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#TravelRequest"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#budget -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#budget">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#TravelRequest"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#category -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#category">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Vaccination"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#children -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#children">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#TravelRequest"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#departure_time -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#departure_time">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#flightLeg"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#description -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#description">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Vaccination"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#destination -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#destination">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#flightLeg"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#destinationPlace -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#destinationPlace">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#TravelRequest"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#duration -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#duration">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Flight"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#flight_price -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#flight_price">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Flight"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#formatted_address -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#formatted_address">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Attraction"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#id -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#id">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Hotel"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#inboundDate -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#inboundDate">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#TravelRequest"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#index -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#index">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Attraction"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#latitude">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Attraction"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Hotel"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#longtiude -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#longtiude">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Attraction"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Hotel"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#low_rate -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#low_rate">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Hotel"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#name -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#name">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Attraction"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Hotel"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#origin -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#origin">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#flightLeg"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#outboundDate -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#outboundDate">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#TravelRequest"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#ranking -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#ranking">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Hotel"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#rating -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#rating">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Attraction"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#room_price -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#room_price">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Hotel"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#tfd -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#tfd">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#TravelRequest"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#tfp -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#tfp">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#TravelRequest"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#tft -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#tft">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#TravelRequest"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#thp -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#thp">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#TravelRequest"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#thr -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#thr">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#TravelRequest"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#types -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/travel-ontology#types">
+        <rdfs:domain rdf:resource="http://localhost:8080/travel-ontology#Attraction"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#Attraction -->
+
+    <owl:Class rdf:about="http://localhost:8080/travel-ontology#Attraction"/>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#Flight -->
+
+    <owl:Class rdf:about="http://localhost:8080/travel-ontology#Flight"/>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#Hotel -->
+
+    <owl:Class rdf:about="http://localhost:8080/travel-ontology#Hotel"/>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#InBound -->
+
+    <owl:Class rdf:about="http://localhost:8080/travel-ontology#InBound">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/travel-ontology#Flight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#Outbound -->
+
+    <owl:Class rdf:about="http://localhost:8080/travel-ontology#Outbound">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/travel-ontology#Flight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#Package -->
+
+    <owl:Class rdf:about="http://localhost:8080/travel-ontology#Package"/>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#TravelRequest -->
+
+    <owl:Class rdf:about="http://localhost:8080/travel-ontology#TravelRequest"/>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#TravelResponse -->
+
+    <owl:Class rdf:about="http://localhost:8080/travel-ontology#TravelResponse"/>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#Vaccination -->
+
+    <owl:Class rdf:about="http://localhost:8080/travel-ontology#Vaccination"/>
+    
+
+
+    <!-- http://localhost:8080/travel-ontology#flightLeg -->
+
+    <owl:Class rdf:about="http://localhost:8080/travel-ontology#flightLeg">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/travel-ontology#Flight"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

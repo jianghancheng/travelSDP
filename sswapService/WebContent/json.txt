@@ -1,0 +1,1900 @@
+{
+  "results": [
+    {
+      "Attractions": [
+        {
+          "formatted_address": "5 Rue Trousseau, 75011 Paris, France", 
+          "index": 0, 
+          "name": "The Bottle Shop", 
+          "rating": 4, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "5 Rue Daunou, 75002 Paris, France", 
+          "index": 1, 
+          "name": "Harry's New York Bar", 
+          "rating": 4.3, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "8-12 Rue Boissy d'Anglas, 75008 Paris, France", 
+          "index": 2, 
+          "name": "Buddha-Bar", 
+          "rating": 3.9, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "18 Rue Alibert, 75010 Paris, France", 
+          "index": 3, 
+          "name": "Le Carillon Paris", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "lodging", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "5 Passage Ruelle, 75018 Paris, France", 
+          "index": 4, 
+          "name": "Ice Kube Bar", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "114 Rue Amelot, 75011 Paris, France", 
+          "index": 5, 
+          "name": "Le Clown Bar", 
+          "rating": 4.2, 
+          "types": [
+            "restaurant", 
+            "bar", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "13 Rue des Petits Champs, 75001 Paris, France", 
+          "index": 6, 
+          "name": "Le Willi's Wine Bar", 
+          "rating": 4.2, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "184 Rue Saint-Jacques, 75005 Paris, France", 
+          "index": 7, 
+          "name": "WOS Bar", 
+          "rating": 4.5, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "3 Place du G\u00e9n\u00e9ral K\u0153nig, 75017 Paris, France", 
+          "index": 8, 
+          "name": "La Vue", 
+          "rating": 4, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "118 Boulevard de Clichy, 75018 Paris, France", 
+          "index": 9, 
+          "name": "The Harp Bar", 
+          "rating": 4.6, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "52 Rue de Saintonge, 75003 Paris, France", 
+          "index": 10, 
+          "name": "Candelaria", 
+          "rating": 4.3, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "H\u00f4tel Le Bristol Paris, 112 Rue du Faubourg Saint-Honor\u00e9, 75008 Paris, France", 
+          "index": 11, 
+          "name": "Le Bar du Bristol", 
+          "rating": 4.4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "23 Rue du Temple, 75004 Paris, France", 
+          "index": 12, 
+          "name": "RAIDD Bar", 
+          "rating": 3.1, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "1 Rue du Pont Neuf, 75001 Paris, France", 
+          "index": 13, 
+          "name": "Kong", 
+          "rating": 3.1, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "43 Rue Saint Honor\u00e9, 75001 Paris, France", 
+          "index": 14, 
+          "name": "Velvet Bar Paris", 
+          "rating": 4.5, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "15 Place Vend\u00f4me, 75001 Paris, France", 
+          "index": 15, 
+          "name": "Ritz Paris", 
+          "rating": 4.4, 
+          "types": [
+            "lodging", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "1 Boulevard Montmartre, 75002 Paris, France", 
+          "index": 16, 
+          "name": "O'Sullivans Grand Boulevard / Caf\u00e9 bar", 
+          "rating": 3.2, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "228 Rue de Rivoli, 75001 Paris, France", 
+          "index": 17, 
+          "name": "Bar 228", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "32 Rue Albert Thomas, 75010 Paris, France", 
+          "index": 18, 
+          "name": "Play Bar Paris", 
+          "rating": 4.4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "20 Rue de la Forge Royale, Paris, France", 
+          "index": 19, 
+          "name": "Twenty One Sound Bar", 
+          "rating": 4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }
+      ], 
+      "Vaccinations": [
+        {
+          "category": "Routine Vaccines", 
+          "description": "Be sure that your routine vaccines are up-to-date regardless of your travel destination."
+        }, 
+        {
+          "category": "Vaccines to Consider", 
+          "description": "You may be at risk for these vaccine-preventable diseases while travelling in this country. Talk to your travel health provider about which ones are right for you."
+        }, 
+        {
+          "category": "Yellow Fever Vaccination", 
+          "description": "Yellow fever is a disease caused by a flavivirus from the bite of an infected mosquito.Travellers get vaccinated either because it is required to enter a country or because it is recommended for their protection.About Yellow FeverYellow Fever Vaccination Centres in Canada"
+        }, 
+        {
+          "category": "Hepatitis B", 
+          "description": "Hepatitis B is a disease of the liver spread through blood or other bodily fluids. Travellers who may be exposed (e.g., through sexual contact, medical treatment,\u00a0sharing needles, tattooing, acupuncture or occupational exposure) should get vaccinated."
+        }, 
+        {
+          "category": "Influenza", 
+          "description": "\n\tSeasonal influenza occurs worldwide. The flu season usually runs from November to April in the northern hemisphere, between April and October in the southern hemisphere and year round in the tropics. Influenza (flu) is caused by a virus spread from person to person when they cough or sneeze or by touching objects and surfaces that have been contaminated with the virus. Get the flu shot."
+        }, 
+        {
+          "category": "Measles", 
+          "description": "Measles\u00a0is a highly contagious viral disease and is common in most parts of the world. Be sure your measles vaccination is up-to-date regardless of your travel destination."
+        }, 
+        {
+          "category": "Tick-borne encephalitis", 
+          "description": "Tick-borne encephalitis is a viral disease that affects the central nervous system. It is spread to humans by the bite of an infected tick. Vaccination should be considered for those who may be exposed to ticks (e.g., those participating in outdoor activities in wooded areas) while travelling in regions with risk of tick-borne encephalitis."
+        }
+      ], 
+      "flight": {
+        "flight_info": [
+          {
+            "duration": 185, 
+            "info": [
+              {
+                "arrivalTime": "2016-11-17T14:20+01:00", 
+                "departureTime": "2016-11-17T12:15+02:00", 
+                "destination": "Paris Charles de Gaulle", 
+                "origin": "Helsinki-Vantaa"
+              }
+              {
+                "arrivalTime": "TRANSIT", 
+                "departureTime": "TRANSIT", 
+                "destination": "TRANSIT", 
+                "origin": "TRANSIT"
+              }
+            ]
+          }, 
+          {
+            "duration": 175, 
+            "info": [
+              {
+                "arrivalTime": "2016-11-21T11:30+02:00", 
+                "departureTime": "2016-11-21T07:35+01:00", 
+                "destination": "Helsinki-Vantaa", 
+                "origin": "Paris Charles de Gaulle"
+              }
+            ]
+          }
+        ], 
+        "id": 1, 
+        "price": {
+          "Currency": "EUR", 
+          "Price": "273.11"
+        }
+      }, 
+      "hotel": {
+        "id": 1, 
+        "latitude": "10.77737", 
+        "longitude": "106.70365", 
+        "low_rate": 190.8, 
+        "name": "Park Hyatt Saigon", 
+        "ranking": 95, 
+        "room_price": 309
+      }
+    }, 
+    {
+      "Attractions": [
+        {
+          "formatted_address": "5 Rue Trousseau, 75011 Paris, France", 
+          "index": 0, 
+          "name": "The Bottle Shop", 
+          "rating": 4, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "5 Rue Daunou, 75002 Paris, France", 
+          "index": 1, 
+          "name": "Harry's New York Bar", 
+          "rating": 4.3, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "8-12 Rue Boissy d'Anglas, 75008 Paris, France", 
+          "index": 2, 
+          "name": "Buddha-Bar", 
+          "rating": 3.9, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "18 Rue Alibert, 75010 Paris, France", 
+          "index": 3, 
+          "name": "Le Carillon Paris", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "lodging", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "5 Passage Ruelle, 75018 Paris, France", 
+          "index": 4, 
+          "name": "Ice Kube Bar", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "114 Rue Amelot, 75011 Paris, France", 
+          "index": 5, 
+          "name": "Le Clown Bar", 
+          "rating": 4.2, 
+          "types": [
+            "restaurant", 
+            "bar", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "13 Rue des Petits Champs, 75001 Paris, France", 
+          "index": 6, 
+          "name": "Le Willi's Wine Bar", 
+          "rating": 4.2, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "184 Rue Saint-Jacques, 75005 Paris, France", 
+          "index": 7, 
+          "name": "WOS Bar", 
+          "rating": 4.5, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "3 Place du G\u00e9n\u00e9ral K\u0153nig, 75017 Paris, France", 
+          "index": 8, 
+          "name": "La Vue", 
+          "rating": 4, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "118 Boulevard de Clichy, 75018 Paris, France", 
+          "index": 9, 
+          "name": "The Harp Bar", 
+          "rating": 4.6, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "52 Rue de Saintonge, 75003 Paris, France", 
+          "index": 10, 
+          "name": "Candelaria", 
+          "rating": 4.3, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "H\u00f4tel Le Bristol Paris, 112 Rue du Faubourg Saint-Honor\u00e9, 75008 Paris, France", 
+          "index": 11, 
+          "name": "Le Bar du Bristol", 
+          "rating": 4.4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "23 Rue du Temple, 75004 Paris, France", 
+          "index": 12, 
+          "name": "RAIDD Bar", 
+          "rating": 3.1, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "1 Rue du Pont Neuf, 75001 Paris, France", 
+          "index": 13, 
+          "name": "Kong", 
+          "rating": 3.1, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "43 Rue Saint Honor\u00e9, 75001 Paris, France", 
+          "index": 14, 
+          "name": "Velvet Bar Paris", 
+          "rating": 4.5, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "15 Place Vend\u00f4me, 75001 Paris, France", 
+          "index": 15, 
+          "name": "Ritz Paris", 
+          "rating": 4.4, 
+          "types": [
+            "lodging", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "1 Boulevard Montmartre, 75002 Paris, France", 
+          "index": 16, 
+          "name": "O'Sullivans Grand Boulevard / Caf\u00e9 bar", 
+          "rating": 3.2, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "228 Rue de Rivoli, 75001 Paris, France", 
+          "index": 17, 
+          "name": "Bar 228", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "32 Rue Albert Thomas, 75010 Paris, France", 
+          "index": 18, 
+          "name": "Play Bar Paris", 
+          "rating": 4.4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "20 Rue de la Forge Royale, Paris, France", 
+          "index": 19, 
+          "name": "Twenty One Sound Bar", 
+          "rating": 4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }
+      ], 
+      "Vaccinations": [
+        {
+          "category": "Routine Vaccines", 
+          "description": "Be sure that your routine vaccines are up-to-date regardless of your travel destination."
+        }, 
+        {
+          "category": "Vaccines to Consider", 
+          "description": "You may be at risk for these vaccine-preventable diseases while travelling in this country. Talk to your travel health provider about which ones are right for you."
+        }, 
+        {
+          "category": "Yellow Fever Vaccination", 
+          "description": "Yellow fever is a disease caused by a flavivirus from the bite of an infected mosquito.Travellers get vaccinated either because it is required to enter a country or because it is recommended for their protection.About Yellow FeverYellow Fever Vaccination Centres in Canada"
+        }, 
+        {
+          "category": "Hepatitis B", 
+          "description": "Hepatitis B is a disease of the liver spread through blood or other bodily fluids. Travellers who may be exposed (e.g., through sexual contact, medical treatment,\u00a0sharing needles, tattooing, acupuncture or occupational exposure) should get vaccinated."
+        }, 
+        {
+          "category": "Influenza", 
+          "description": "\n\tSeasonal influenza occurs worldwide. The flu season usually runs from November to April in the northern hemisphere, between April and October in the southern hemisphere and year round in the tropics. Influenza (flu) is caused by a virus spread from person to person when they cough or sneeze or by touching objects and surfaces that have been contaminated with the virus. Get the flu shot."
+        }, 
+        {
+          "category": "Measles", 
+          "description": "Measles\u00a0is a highly contagious viral disease and is common in most parts of the world. Be sure your measles vaccination is up-to-date regardless of your travel destination."
+        }, 
+        {
+          "category": "Tick-borne encephalitis", 
+          "description": "Tick-borne encephalitis is a viral disease that affects the central nervous system. It is spread to humans by the bite of an infected tick. Vaccination should be considered for those who may be exposed to ticks (e.g., those participating in outdoor activities in wooded areas) while travelling in regions with risk of tick-borne encephalitis."
+        }
+      ], 
+      "flight": {
+        "flight_info": [
+          {
+            "duration": 185, 
+            "info": [
+              {
+                "arrivalTime": "2016-11-17T14:20+01:00", 
+                "departureTime": "2016-11-17T12:15+02:00", 
+                "destination": "Paris Charles de Gaulle", 
+                "origin": "Helsinki-Vantaa"
+              }
+            ]
+          }, 
+          {
+            "duration": 175, 
+            "info": [
+              {
+                "arrivalTime": "2016-11-21T11:30+02:00", 
+                "departureTime": "2016-11-21T07:35+01:00", 
+                "destination": "Helsinki-Vantaa", 
+                "origin": "Paris Charles de Gaulle"
+              }
+            ]
+          }
+        ], 
+        "id": 1, 
+        "price": {
+          "Currency": "EUR", 
+          "Price": "273.11"
+        }
+      }, 
+      "hotel": {
+        "id": 2, 
+        "latitude": "10.823099", 
+        "longitude": "106.629664", 
+        "low_rate": null, 
+        "name": "Reunification Palace", 
+        "ranking": 91, 
+        "room_price": 224
+      }
+    }, 
+    {
+      "Attractions": [
+        {
+          "formatted_address": "5 Rue Trousseau, 75011 Paris, France", 
+          "index": 0, 
+          "name": "The Bottle Shop", 
+          "rating": 4, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "5 Rue Daunou, 75002 Paris, France", 
+          "index": 1, 
+          "name": "Harry's New York Bar", 
+          "rating": 4.3, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "8-12 Rue Boissy d'Anglas, 75008 Paris, France", 
+          "index": 2, 
+          "name": "Buddha-Bar", 
+          "rating": 3.9, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "18 Rue Alibert, 75010 Paris, France", 
+          "index": 3, 
+          "name": "Le Carillon Paris", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "lodging", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "5 Passage Ruelle, 75018 Paris, France", 
+          "index": 4, 
+          "name": "Ice Kube Bar", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "114 Rue Amelot, 75011 Paris, France", 
+          "index": 5, 
+          "name": "Le Clown Bar", 
+          "rating": 4.2, 
+          "types": [
+            "restaurant", 
+            "bar", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "13 Rue des Petits Champs, 75001 Paris, France", 
+          "index": 6, 
+          "name": "Le Willi's Wine Bar", 
+          "rating": 4.2, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "184 Rue Saint-Jacques, 75005 Paris, France", 
+          "index": 7, 
+          "name": "WOS Bar", 
+          "rating": 4.5, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "3 Place du G\u00e9n\u00e9ral K\u0153nig, 75017 Paris, France", 
+          "index": 8, 
+          "name": "La Vue", 
+          "rating": 4, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "118 Boulevard de Clichy, 75018 Paris, France", 
+          "index": 9, 
+          "name": "The Harp Bar", 
+          "rating": 4.6, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "52 Rue de Saintonge, 75003 Paris, France", 
+          "index": 10, 
+          "name": "Candelaria", 
+          "rating": 4.3, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "H\u00f4tel Le Bristol Paris, 112 Rue du Faubourg Saint-Honor\u00e9, 75008 Paris, France", 
+          "index": 11, 
+          "name": "Le Bar du Bristol", 
+          "rating": 4.4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "23 Rue du Temple, 75004 Paris, France", 
+          "index": 12, 
+          "name": "RAIDD Bar", 
+          "rating": 3.1, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "1 Rue du Pont Neuf, 75001 Paris, France", 
+          "index": 13, 
+          "name": "Kong", 
+          "rating": 3.1, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "43 Rue Saint Honor\u00e9, 75001 Paris, France", 
+          "index": 14, 
+          "name": "Velvet Bar Paris", 
+          "rating": 4.5, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "15 Place Vend\u00f4me, 75001 Paris, France", 
+          "index": 15, 
+          "name": "Ritz Paris", 
+          "rating": 4.4, 
+          "types": [
+            "lodging", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "1 Boulevard Montmartre, 75002 Paris, France", 
+          "index": 16, 
+          "name": "O'Sullivans Grand Boulevard / Caf\u00e9 bar", 
+          "rating": 3.2, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "228 Rue de Rivoli, 75001 Paris, France", 
+          "index": 17, 
+          "name": "Bar 228", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "32 Rue Albert Thomas, 75010 Paris, France", 
+          "index": 18, 
+          "name": "Play Bar Paris", 
+          "rating": 4.4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "20 Rue de la Forge Royale, Paris, France", 
+          "index": 19, 
+          "name": "Twenty One Sound Bar", 
+          "rating": 4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }
+      ], 
+      "Vaccinations": [
+        {
+          "category": "Routine Vaccines", 
+          "description": "Be sure that your routine vaccines are up-to-date regardless of your travel destination."
+        }, 
+        {
+          "category": "Vaccines to Consider", 
+          "description": "You may be at risk for these vaccine-preventable diseases while travelling in this country. Talk to your travel health provider about which ones are right for you."
+        }, 
+        {
+          "category": "Yellow Fever Vaccination", 
+          "description": "Yellow fever is a disease caused by a flavivirus from the bite of an infected mosquito.Travellers get vaccinated either because it is required to enter a country or because it is recommended for their protection.About Yellow FeverYellow Fever Vaccination Centres in Canada"
+        }, 
+        {
+          "category": "Hepatitis B", 
+          "description": "Hepatitis B is a disease of the liver spread through blood or other bodily fluids. Travellers who may be exposed (e.g., through sexual contact, medical treatment,\u00a0sharing needles, tattooing, acupuncture or occupational exposure) should get vaccinated."
+        }, 
+        {
+          "category": "Influenza", 
+          "description": "\n\tSeasonal influenza occurs worldwide. The flu season usually runs from November to April in the northern hemisphere, between April and October in the southern hemisphere and year round in the tropics. Influenza (flu) is caused by a virus spread from person to person when they cough or sneeze or by touching objects and surfaces that have been contaminated with the virus. Get the flu shot."
+        }, 
+        {
+          "category": "Measles", 
+          "description": "Measles\u00a0is a highly contagious viral disease and is common in most parts of the world. Be sure your measles vaccination is up-to-date regardless of your travel destination."
+        }, 
+        {
+          "category": "Tick-borne encephalitis", 
+          "description": "Tick-borne encephalitis is a viral disease that affects the central nervous system. It is spread to humans by the bite of an infected tick. Vaccination should be considered for those who may be exposed to ticks (e.g., those participating in outdoor activities in wooded areas) while travelling in regions with risk of tick-borne encephalitis."
+        }
+      ], 
+      "flight": {
+        "flight_info": [
+          {
+            "duration": 185, 
+            "info": [
+              {
+                "arrivalTime": "2016-11-17T11:30+01:00", 
+                "departureTime": "2016-11-17T09:25+02:00", 
+                "destination": "Paris Charles de Gaulle", 
+                "origin": "Helsinki-Vantaa"
+              }
+            ]
+          }, 
+          {
+            "duration": 175, 
+            "info": [
+              {
+                "arrivalTime": "2016-11-21T11:30+02:00", 
+                "departureTime": "2016-11-21T07:35+01:00", 
+                "destination": "Helsinki-Vantaa", 
+                "origin": "Paris Charles de Gaulle"
+              }
+            ]
+          }
+        ], 
+        "id": 2, 
+        "price": {
+          "Currency": "EUR", 
+          "Price": "273.11"
+        }
+      }, 
+      "hotel": {
+        "id": 1, 
+        "latitude": "10.77737", 
+        "longitude": "106.70365", 
+        "low_rate": 190.8, 
+        "name": "Park Hyatt Saigon", 
+        "ranking": 95, 
+        "room_price": 309
+      }
+    }, 
+    {
+      "Attractions": [
+        {
+          "formatted_address": "5 Rue Trousseau, 75011 Paris, France", 
+          "index": 0, 
+          "name": "The Bottle Shop", 
+          "rating": 4, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "5 Rue Daunou, 75002 Paris, France", 
+          "index": 1, 
+          "name": "Harry's New York Bar", 
+          "rating": 4.3, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "8-12 Rue Boissy d'Anglas, 75008 Paris, France", 
+          "index": 2, 
+          "name": "Buddha-Bar", 
+          "rating": 3.9, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "18 Rue Alibert, 75010 Paris, France", 
+          "index": 3, 
+          "name": "Le Carillon Paris", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "lodging", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "5 Passage Ruelle, 75018 Paris, France", 
+          "index": 4, 
+          "name": "Ice Kube Bar", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "114 Rue Amelot, 75011 Paris, France", 
+          "index": 5, 
+          "name": "Le Clown Bar", 
+          "rating": 4.2, 
+          "types": [
+            "restaurant", 
+            "bar", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "13 Rue des Petits Champs, 75001 Paris, France", 
+          "index": 6, 
+          "name": "Le Willi's Wine Bar", 
+          "rating": 4.2, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "184 Rue Saint-Jacques, 75005 Paris, France", 
+          "index": 7, 
+          "name": "WOS Bar", 
+          "rating": 4.5, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "3 Place du G\u00e9n\u00e9ral K\u0153nig, 75017 Paris, France", 
+          "index": 8, 
+          "name": "La Vue", 
+          "rating": 4, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "118 Boulevard de Clichy, 75018 Paris, France", 
+          "index": 9, 
+          "name": "The Harp Bar", 
+          "rating": 4.6, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "52 Rue de Saintonge, 75003 Paris, France", 
+          "index": 10, 
+          "name": "Candelaria", 
+          "rating": 4.3, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "H\u00f4tel Le Bristol Paris, 112 Rue du Faubourg Saint-Honor\u00e9, 75008 Paris, France", 
+          "index": 11, 
+          "name": "Le Bar du Bristol", 
+          "rating": 4.4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "23 Rue du Temple, 75004 Paris, France", 
+          "index": 12, 
+          "name": "RAIDD Bar", 
+          "rating": 3.1, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "1 Rue du Pont Neuf, 75001 Paris, France", 
+          "index": 13, 
+          "name": "Kong", 
+          "rating": 3.1, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "43 Rue Saint Honor\u00e9, 75001 Paris, France", 
+          "index": 14, 
+          "name": "Velvet Bar Paris", 
+          "rating": 4.5, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "15 Place Vend\u00f4me, 75001 Paris, France", 
+          "index": 15, 
+          "name": "Ritz Paris", 
+          "rating": 4.4, 
+          "types": [
+            "lodging", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "1 Boulevard Montmartre, 75002 Paris, France", 
+          "index": 16, 
+          "name": "O'Sullivans Grand Boulevard / Caf\u00e9 bar", 
+          "rating": 3.2, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "228 Rue de Rivoli, 75001 Paris, France", 
+          "index": 17, 
+          "name": "Bar 228", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "32 Rue Albert Thomas, 75010 Paris, France", 
+          "index": 18, 
+          "name": "Play Bar Paris", 
+          "rating": 4.4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "20 Rue de la Forge Royale, Paris, France", 
+          "index": 19, 
+          "name": "Twenty One Sound Bar", 
+          "rating": 4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }
+      ], 
+      "Vaccinations": [
+        {
+          "category": "Routine Vaccines", 
+          "description": "Be sure that your routine vaccines are up-to-date regardless of your travel destination."
+        }, 
+        {
+          "category": "Vaccines to Consider", 
+          "description": "You may be at risk for these vaccine-preventable diseases while travelling in this country. Talk to your travel health provider about which ones are right for you."
+        }, 
+        {
+          "category": "Yellow Fever Vaccination", 
+          "description": "Yellow fever is a disease caused by a flavivirus from the bite of an infected mosquito.Travellers get vaccinated either because it is required to enter a country or because it is recommended for their protection.About Yellow FeverYellow Fever Vaccination Centres in Canada"
+        }, 
+        {
+          "category": "Hepatitis B", 
+          "description": "Hepatitis B is a disease of the liver spread through blood or other bodily fluids. Travellers who may be exposed (e.g., through sexual contact, medical treatment,\u00a0sharing needles, tattooing, acupuncture or occupational exposure) should get vaccinated."
+        }, 
+        {
+          "category": "Influenza", 
+          "description": "\n\tSeasonal influenza occurs worldwide. The flu season usually runs from November to April in the northern hemisphere, between April and October in the southern hemisphere and year round in the tropics. Influenza (flu) is caused by a virus spread from person to person when they cough or sneeze or by touching objects and surfaces that have been contaminated with the virus. Get the flu shot."
+        }, 
+        {
+          "category": "Measles", 
+          "description": "Measles\u00a0is a highly contagious viral disease and is common in most parts of the world. Be sure your measles vaccination is up-to-date regardless of your travel destination."
+        }, 
+        {
+          "category": "Tick-borne encephalitis", 
+          "description": "Tick-borne encephalitis is a viral disease that affects the central nervous system. It is spread to humans by the bite of an infected tick. Vaccination should be considered for those who may be exposed to ticks (e.g., those participating in outdoor activities in wooded areas) while travelling in regions with risk of tick-borne encephalitis."
+        }
+      ], 
+      "flight": {
+        "flight_info": [
+          {
+            "duration": 185, 
+            "info": [
+              {
+                "arrivalTime": "2016-11-17T11:30+01:00", 
+                "departureTime": "2016-11-17T09:25+02:00", 
+                "destination": "Paris Charles de Gaulle", 
+                "origin": "Helsinki-Vantaa"
+              }
+              {
+                "arrivalTime": "TRANSIT SECOND", 
+                "departureTime": "TRANSIT SECOND", 
+                "destination": "TRANSIT SECOND", 
+                "origin": "TRANSIT SECOND"
+              }
+            ]
+          }, 
+          {
+            "duration": 175, 
+            "info": [
+              {
+                "arrivalTime": "2016-11-21T11:30+02:00", 
+                "departureTime": "2016-11-21T07:35+01:00", 
+                "destination": "Helsinki-Vantaa", 
+                "origin": "Paris Charles de Gaulle"
+              }
+            ]
+          }
+        ], 
+        "id": 2, 
+        "price": {
+          "Currency": "EUR", 
+          "Price": "273.11"
+        }
+      }, 
+      "hotel": {
+        "id": 2, 
+        "latitude": "10.823099", 
+        "longitude": "106.629664", 
+        "low_rate": null, 
+        "name": "Reunification Palace", 
+        "ranking": 91, 
+        "room_price": 224
+      }
+    }, 
+    {
+      "Attractions": [
+        {
+          "formatted_address": "5 Rue Trousseau, 75011 Paris, France", 
+          "index": 0, 
+          "name": "The Bottle Shop", 
+          "rating": 4, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "5 Rue Daunou, 75002 Paris, France", 
+          "index": 1, 
+          "name": "Harry's New York Bar", 
+          "rating": 4.3, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "8-12 Rue Boissy d'Anglas, 75008 Paris, France", 
+          "index": 2, 
+          "name": "Buddha-Bar", 
+          "rating": 3.9, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "18 Rue Alibert, 75010 Paris, France", 
+          "index": 3, 
+          "name": "Le Carillon Paris", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "lodging", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "5 Passage Ruelle, 75018 Paris, France", 
+          "index": 4, 
+          "name": "Ice Kube Bar", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "114 Rue Amelot, 75011 Paris, France", 
+          "index": 5, 
+          "name": "Le Clown Bar", 
+          "rating": 4.2, 
+          "types": [
+            "restaurant", 
+            "bar", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "13 Rue des Petits Champs, 75001 Paris, France", 
+          "index": 6, 
+          "name": "Le Willi's Wine Bar", 
+          "rating": 4.2, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "184 Rue Saint-Jacques, 75005 Paris, France", 
+          "index": 7, 
+          "name": "WOS Bar", 
+          "rating": 4.5, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "3 Place du G\u00e9n\u00e9ral K\u0153nig, 75017 Paris, France", 
+          "index": 8, 
+          "name": "La Vue", 
+          "rating": 4, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "118 Boulevard de Clichy, 75018 Paris, France", 
+          "index": 9, 
+          "name": "The Harp Bar", 
+          "rating": 4.6, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "52 Rue de Saintonge, 75003 Paris, France", 
+          "index": 10, 
+          "name": "Candelaria", 
+          "rating": 4.3, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "H\u00f4tel Le Bristol Paris, 112 Rue du Faubourg Saint-Honor\u00e9, 75008 Paris, France", 
+          "index": 11, 
+          "name": "Le Bar du Bristol", 
+          "rating": 4.4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "23 Rue du Temple, 75004 Paris, France", 
+          "index": 12, 
+          "name": "RAIDD Bar", 
+          "rating": 3.1, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "1 Rue du Pont Neuf, 75001 Paris, France", 
+          "index": 13, 
+          "name": "Kong", 
+          "rating": 3.1, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "43 Rue Saint Honor\u00e9, 75001 Paris, France", 
+          "index": 14, 
+          "name": "Velvet Bar Paris", 
+          "rating": 4.5, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "15 Place Vend\u00f4me, 75001 Paris, France", 
+          "index": 15, 
+          "name": "Ritz Paris", 
+          "rating": 4.4, 
+          "types": [
+            "lodging", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "1 Boulevard Montmartre, 75002 Paris, France", 
+          "index": 16, 
+          "name": "O'Sullivans Grand Boulevard / Caf\u00e9 bar", 
+          "rating": 3.2, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "228 Rue de Rivoli, 75001 Paris, France", 
+          "index": 17, 
+          "name": "Bar 228", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "32 Rue Albert Thomas, 75010 Paris, France", 
+          "index": 18, 
+          "name": "Play Bar Paris", 
+          "rating": 4.4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "20 Rue de la Forge Royale, Paris, France", 
+          "index": 19, 
+          "name": "Twenty One Sound Bar", 
+          "rating": 4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }
+      ], 
+      "Vaccinations": [
+        {
+          "category": "Routine Vaccines", 
+          "description": "Be sure that your routine vaccines are up-to-date regardless of your travel destination."
+        }, 
+        {
+          "category": "Vaccines to Consider", 
+          "description": "You may be at risk for these vaccine-preventable diseases while travelling in this country. Talk to your travel health provider about which ones are right for you."
+        }, 
+        {
+          "category": "Yellow Fever Vaccination", 
+          "description": "Yellow fever is a disease caused by a flavivirus from the bite of an infected mosquito.Travellers get vaccinated either because it is required to enter a country or because it is recommended for their protection.About Yellow FeverYellow Fever Vaccination Centres in Canada"
+        }, 
+        {
+          "category": "Hepatitis B", 
+          "description": "Hepatitis B is a disease of the liver spread through blood or other bodily fluids. Travellers who may be exposed (e.g., through sexual contact, medical treatment,\u00a0sharing needles, tattooing, acupuncture or occupational exposure) should get vaccinated."
+        }, 
+        {
+          "category": "Influenza", 
+          "description": "\n\tSeasonal influenza occurs worldwide. The flu season usually runs from November to April in the northern hemisphere, between April and October in the southern hemisphere and year round in the tropics. Influenza (flu) is caused by a virus spread from person to person when they cough or sneeze or by touching objects and surfaces that have been contaminated with the virus. Get the flu shot."
+        }, 
+        {
+          "category": "Measles", 
+          "description": "Measles\u00a0is a highly contagious viral disease and is common in most parts of the world. Be sure your measles vaccination is up-to-date regardless of your travel destination."
+        }, 
+        {
+          "category": "Tick-borne encephalitis", 
+          "description": "Tick-borne encephalitis is a viral disease that affects the central nervous system. It is spread to humans by the bite of an infected tick. Vaccination should be considered for those who may be exposed to ticks (e.g., those participating in outdoor activities in wooded areas) while travelling in regions with risk of tick-borne encephalitis."
+        }
+      ], 
+      "flight": {
+        "flight_info": [
+          {
+            "duration": 185, 
+            "info": [
+              {
+                "arrivalTime": "2016-11-17T09:40+01:00", 
+                "departureTime": "2016-11-17T07:35+02:00", 
+                "destination": "Paris Charles de Gaulle", 
+                "origin": "Helsinki-Vantaa"
+              }
+            ]
+          }, 
+          {
+            "duration": 175, 
+            "info": [
+              {
+                "arrivalTime": "2016-11-21T11:30+02:00", 
+                "departureTime": "2016-11-21T07:35+01:00", 
+                "destination": "Helsinki-Vantaa", 
+                "origin": "Paris Charles de Gaulle"
+              }
+              {
+                "arrivalTime": "TRANSIT THIRD", 
+                "departureTime": "TRANSIT THIRD", 
+                "destination": "TRANSIT THIRD", 
+                "origin": "TRANSIT THIRD"
+              }
+            ]
+          }
+        ], 
+        "id": 3, 
+        "price": {
+          "Currency": "EUR", 
+          "Price": "273.11"
+        }
+      }, 
+      "hotel": {
+        "id": 1, 
+        "latitude": "10.77737", 
+        "longitude": "106.70365", 
+        "low_rate": 190.8, 
+        "name": "Park Hyatt Saigon", 
+        "ranking": 95, 
+        "room_price": 309
+      }
+    }, 
+    {
+      "Attractions": [
+        {
+          "formatted_address": "5 Rue Trousseau, 75011 Paris, France", 
+          "index": 0, 
+          "name": "The Bottle Shop", 
+          "rating": 4, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "5 Rue Daunou, 75002 Paris, France", 
+          "index": 1, 
+          "name": "Harry's New York Bar", 
+          "rating": 4.3, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "8-12 Rue Boissy d'Anglas, 75008 Paris, France", 
+          "index": 2, 
+          "name": "Buddha-Bar", 
+          "rating": 3.9, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "18 Rue Alibert, 75010 Paris, France", 
+          "index": 3, 
+          "name": "Le Carillon Paris", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "lodging", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "5 Passage Ruelle, 75018 Paris, France", 
+          "index": 4, 
+          "name": "Ice Kube Bar", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "114 Rue Amelot, 75011 Paris, France", 
+          "index": 5, 
+          "name": "Le Clown Bar", 
+          "rating": 4.2, 
+          "types": [
+            "restaurant", 
+            "bar", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "13 Rue des Petits Champs, 75001 Paris, France", 
+          "index": 6, 
+          "name": "Le Willi's Wine Bar", 
+          "rating": 4.2, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "184 Rue Saint-Jacques, 75005 Paris, France", 
+          "index": 7, 
+          "name": "WOS Bar", 
+          "rating": 4.5, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "3 Place du G\u00e9n\u00e9ral K\u0153nig, 75017 Paris, France", 
+          "index": 8, 
+          "name": "La Vue", 
+          "rating": 4, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "118 Boulevard de Clichy, 75018 Paris, France", 
+          "index": 9, 
+          "name": "The Harp Bar", 
+          "rating": 4.6, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "52 Rue de Saintonge, 75003 Paris, France", 
+          "index": 10, 
+          "name": "Candelaria", 
+          "rating": 4.3, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "H\u00f4tel Le Bristol Paris, 112 Rue du Faubourg Saint-Honor\u00e9, 75008 Paris, France", 
+          "index": 11, 
+          "name": "Le Bar du Bristol", 
+          "rating": 4.4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "23 Rue du Temple, 75004 Paris, France", 
+          "index": 12, 
+          "name": "RAIDD Bar", 
+          "rating": 3.1, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "1 Rue du Pont Neuf, 75001 Paris, France", 
+          "index": 13, 
+          "name": "Kong", 
+          "rating": 3.1, 
+          "types": [
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "43 Rue Saint Honor\u00e9, 75001 Paris, France", 
+          "index": 14, 
+          "name": "Velvet Bar Paris", 
+          "rating": 4.5, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "15 Place Vend\u00f4me, 75001 Paris, France", 
+          "index": 15, 
+          "name": "Ritz Paris", 
+          "rating": 4.4, 
+          "types": [
+            "lodging", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "1 Boulevard Montmartre, 75002 Paris, France", 
+          "index": 16, 
+          "name": "O'Sullivans Grand Boulevard / Caf\u00e9 bar", 
+          "rating": 3.2, 
+          "types": [
+            "night_club", 
+            "bar", 
+            "restaurant", 
+            "food", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "228 Rue de Rivoli, 75001 Paris, France", 
+          "index": 17, 
+          "name": "Bar 228", 
+          "rating": 4.1, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "32 Rue Albert Thomas, 75010 Paris, France", 
+          "index": 18, 
+          "name": "Play Bar Paris", 
+          "rating": 4.4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }, 
+        {
+          "formatted_address": "20 Rue de la Forge Royale, Paris, France", 
+          "index": 19, 
+          "name": "Twenty One Sound Bar", 
+          "rating": 4, 
+          "types": [
+            "bar", 
+            "point_of_interest", 
+            "establishment"
+          ]
+        }
+      ], 
+      "Vaccinations": [
+        {
+          "category": "Routine Vaccines", 
+          "description": "Be sure that your routine vaccines are up-to-date regardless of your travel destination."
+        }, 
+        {
+          "category": "Vaccines to Consider", 
+          "description": "You may be at risk for these vaccine-preventable diseases while travelling in this country. Talk to your travel health provider about which ones are right for you."
+        }, 
+        {
+          "category": "Yellow Fever Vaccination", 
+          "description": "Yellow fever is a disease caused by a flavivirus from the bite of an infected mosquito.Travellers get vaccinated either because it is required to enter a country or because it is recommended for their protection.About Yellow FeverYellow Fever Vaccination Centres in Canada"
+        }, 
+        {
+          "category": "Hepatitis B", 
+          "description": "Hepatitis B is a disease of the liver spread through blood or other bodily fluids. Travellers who may be exposed (e.g., through sexual contact, medical treatment,\u00a0sharing needles, tattooing, acupuncture or occupational exposure) should get vaccinated."
+        }, 
+        {
+          "category": "Influenza", 
+          "description": "\n\tSeasonal influenza occurs worldwide. The flu season usually runs from November to April in the northern hemisphere, between April and October in the southern hemisphere and year round in the tropics. Influenza (flu) is caused by a virus spread from person to person when they cough or sneeze or by touching objects and surfaces that have been contaminated with the virus. Get the flu shot."
+        }, 
+        {
+          "category": "Measles", 
+          "description": "Measles\u00a0is a highly contagious viral disease and is common in most parts of the world. Be sure your measles vaccination is up-to-date regardless of your travel destination."
+        }, 
+        {
+          "category": "Tick-borne encephalitis", 
+          "description": "Tick-borne encephalitis is a viral disease that affects the central nervous system. It is spread to humans by the bite of an infected tick. Vaccination should be considered for those who may be exposed to ticks (e.g., those participating in outdoor activities in wooded areas) while travelling in regions with risk of tick-borne encephalitis."
+        }
+      ], 
+      "flight": {
+        "flight_info": [
+          {
+            "duration": 185, 
+            "info": [
+              {
+                "arrivalTime": "2016-11-17T09:40+01:00", 
+                "departureTime": "2016-11-17T07:35+02:00", 
+                "destination": "Paris Charles de Gaulle", 
+                "origin": "Helsinki-Vantaa"
+              }
+            ]
+          }, 
+          {
+            "duration": 175, 
+            "info": [
+              {
+                "arrivalTime": "2016-11-21T11:30+02:00", 
+                "departureTime": "2016-11-21T07:35+01:00", 
+                "destination": "Helsinki-Vantaa", 
+                "origin": "Paris Charles de Gaulle"
+              }
+            ]
+          }
+        ], 
+        "id": 3, 
+        "price": {
+          "Currency": "EUR", 
+          "Price": "273.11"
+        }
+      }, 
+      "hotel": {
+        "id": 2, 
+        "latitude": "10.823099", 
+        "longitude": "106.629664", 
+        "low_rate": null, 
+        "name": "Reunification Palace", 
+        "ranking": 91, 
+        "room_price": 224
+      }
+    }
+  ]
+}

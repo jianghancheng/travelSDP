@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sswap="http://sswapmeet.sswap.info/sswap/"
+   xmlns:travel="http://localhost:8080/travel-ontology#"
+>
+  <rdf:Description rdf:nodeID="ub55bL12C30">
+    <travel:budget></travel:budget>
+    <travel:tfd></travel:tfd>
+    <travel:children></travel:children>
+    <travel:inboundDate></travel:inboundDate>
+    <travel:tft></travel:tft>
+    <travel:thr></travel:thr>
+    <rdf:type rdf:resource="http://sswapmeet.sswap.info/sswap/Subject"/>
+    <rdf:type rdf:resource="http://localhost:8080/travel-ontology#travelRequest"/>
+    <travel:adult></travel:adult>
+    <travel:destinationPlace></travel:destinationPlace>
+    <travel:originPlace></travel:originPlace>
+    <travel:attractions></travel:attractions>
+    <travel:tfp></travel:tfp>
+    <travel:thp></travel:thp>
+    <travel:outboundDate></travel:outboundDate>
+    <sswap:mapsTo rdf:nodeID="ub55bL27C34"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub55bL11C22">
+    <sswap:hasMapping rdf:nodeID="ub55bL12C30"/>
+    <rdf:type rdf:resource="http://sswapmeet.sswap.info/sswap/Graph"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub55bL54C26">
+    <travel:flight_price></travel:flight_price>
+    <travel:hasOutbound rdf:nodeID="ub55bL57C30"/>
+    <rdf:type rdf:resource="http://localhost:8080/travel-ontology#Flight"/>
+    <travel:hasInbound rdf:nodeID="ub55bL68C29"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub55bL31C31">
+    <travel:name></travel:name>
+    <travel:formatted_address></travel:formatted_address>
+    <travel:index></travel:index>
+    <travel:rating></travel:rating>
+    <travel:types></travel:types>
+    <rdf:type rdf:resource="http://localhost:8080/travel-ontology#Attraction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub55bL29C27">
+    <travel:hasAttraction rdf:nodeID="ub55bL31C31"/>
+    <travel:hasVaccination rdf:nodeID="ub55bL39C31"/>
+    <rdf:type rdf:resource="http://localhost:8080/travel-ontology#Package"/>
+    <travel:hasFlight rdf:nodeID="ub55bL54C26"/>
+    <travel:hasHotel rdf:nodeID="ub55bL44C25"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub55bL57C30">
+    <rdf:type rdf:resource="http://localhost:8080/travel-ontology#Outbound"/>
+    <travel:hasFlightLeg rdf:nodeID="ub55bL60C32"/>
+    <travel:duration></travel:duration>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub55bL44C25">
+    <travel:ranking></travel:ranking>
+    <travel:longitude></travel:longitude>
+    <travel:name></travel:name>
+    <travel:room_price></travel:room_price>
+    <travel:latitude></travel:latitude>
+    <travel:id></travel:id>
+    <rdf:type rdf:resource="http://localhost:8080/travel-ontology#Hotel"/>
+    <travel:low_rate></travel:low_rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8080/travel/resource/travelService">
+    <sswap:name>holiday travel package</sswap:name>
+    <rdf:type rdf:resource="http://localhost:8080/travel-ontology#travelService"/>
+    <rdf:type rdf:resource="http://sswapmeet.sswap.info/sswap/Resource"/>
+    <sswap:operatesOn rdf:nodeID="ub55bL11C22"/>
+    <sswap:providedBy rdf:resource="http://localhost:8080/travel/resource/resourceProvider"/>
+    <sswap:oneLineDescription>A service that provides a search for holiday travel packages</sswap:oneLineDescription>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub55bL39C31">
+    <travel:category></travel:category>
+    <travel:description></travel:description>
+    <rdf:type rdf:resource="http://localhost:8080/travel-ontology#Vaccination"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub55bL71C32">
+    <travel:origin></travel:origin>
+    <travel:destination></travel:destination>
+    <travel:departure_time></travel:departure_time>
+    <rdf:type rdf:resource="http://localhost:8080/travel-ontology#FlightLeg"/>
+    <travel:arrival_time></travel:arrival_time>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub55bL60C32">
+    <travel:departure_time></travel:departure_time>
+    <rdf:type rdf:resource="http://localhost:8080/travel-ontology#FlightLeg"/>
+    <travel:destination></travel:destination>
+    <travel:origin></travel:origin>
+    <travel:arrival_time></travel:arrival_time>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub55bL68C29">
+    <travel:hasFlightLeg rdf:nodeID="ub55bL71C32"/>
+    <travel:duration></travel:duration>
+    <rdf:type rdf:resource="http://localhost:8080/travel-ontology#Inbound"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub55bL27C34">
+    <rdf:type rdf:resource="http://localhost:8080/travel-ontology#travelResponse"/>
+    <rdf:type rdf:resource="http://sswapmeet.sswap.info/sswap/Object"/>
+    <travel:hasPackage rdf:nodeID="ub55bL29C27"/>
+  </rdf:Description>
+</rdf:RDF>
+

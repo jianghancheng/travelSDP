@@ -1,0 +1,41 @@
+
+<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<title>sematicBooking</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+      document.getElementById("demo").innerHTML = xhttp.responseText;
+    }
+  };
+  xhttp.open("POST", "mediatorServer", true);
+  xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  xhttp.send("url="+$('#url').val());
+}
+</script>
+
+</head>
+<body  >
+
+
+				<form >
+					<input type="text" name="url" placeholder="url" id="url"><br>
+					
+					<button class="button button1" type="button" onclick="loadDoc()">
+						Search</button>
+				</form>
+			
+			
+			<div> <p id="demo"></p> </div>
+	
+
+
+</body>
+</html>
